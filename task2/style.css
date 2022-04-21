@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(125, 125, 125);
+}
+#mybox{
+    margin-top: 5vh;
+    background-color: white;
+}
+#imgbox{
+    padding: 0px;
+}
+#formbox{
+    align-content: center;
+    padding: 3vh 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 0.7em;
+    }
+    #mybox{
+        margin-top: 0px;
+    }
+  }
